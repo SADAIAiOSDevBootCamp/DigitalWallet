@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E7CD3842B97798600B01AF8 /* NoufView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7CD3832B97798600B01AF8 /* NoufView.swift */; };
 		67DCAB3F2B97699D00012171 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DCAB3E2B97699D00012171 /* ProfileView.swift */; };
 		6A48D1B92B9761CE00F5BAC1 /* sattamview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A48D1B82B9761CE00F5BAC1 /* sattamview.swift */; };
 		6A48D1BB2B97625B00F5BAC1 /* logoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A48D1BA2B97625B00F5BAC1 /* logoo.png */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E7CD3832B97798600B01AF8 /* NoufView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoufView.swift; sourceTree = "<group>"; };
 		67DCAB3E2B97699D00012171 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		6A48D1B82B9761CE00F5BAC1 /* sattamview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sattamview.swift; sourceTree = "<group>"; };
 		6A48D1BA2B97625B00F5BAC1 /* logoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoo.png; path = DigitalWallet/logoo.png; sourceTree = SOURCE_ROOT; };
@@ -62,6 +64,7 @@
 				833965292B9758FE0072CA92 /* DigitalWalletApp.swift */,
 				6A48D1B82B9761CE00F5BAC1 /* sattamview.swift */,
 				8339652B2B9758FE0072CA92 /* ContentView.swift */,
+				1E7CD3832B97798600B01AF8 /* NoufView.swift */,
 				67DCAB3E2B97699D00012171 /* ProfileView.swift */,
 				833965392B9764A90072CA92 /* AlmazyadView.swift */,
 				8339652D2B9759000072CA92 /* Assets.xcassets */,
@@ -154,6 +157,7 @@
 				8339653A2B9764A90072CA92 /* AlmazyadView.swift in Sources */,
 				67DCAB3F2B97699D00012171 /* ProfileView.swift in Sources */,
 				8339652A2B9758FE0072CA92 /* DigitalWalletApp.swift in Sources */,
+				1E7CD3842B97798600B01AF8 /* NoufView.swift in Sources */,
 				6A48D1B92B9761CE00F5BAC1 /* sattamview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
