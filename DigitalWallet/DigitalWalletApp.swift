@@ -12,6 +12,9 @@ struct DigitalWalletApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear{
+                    print("123456")
+                }
         }
     }
 }
