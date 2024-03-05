@@ -9,21 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var isOn = true
+    @State var textt = ""
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-              
-                
+            Image(systemName: "globe")  
             Text("Hello, world!")
                 .foregroundColor(.green)
                 .font(.title)
-            
-            
             Toggle(isOn:$isOn){
                 Text("Toggle me is on or off")
             }
-              
-
+            TextField("enter anything", text: $textt)
         }
         .padding()
     }
