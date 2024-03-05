@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct ProfileView: View {
+    @State private var name: String = ""
+    @State private var email: String = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack{
+            List{
+                TextField("Enter your name", text: $name)
+                TextField("Enter your email", text: $email)
+            }.navigationTitle("Registration Form")
+                .padding()
+        }
     }
 }
 
 #Preview {
     ProfileView()
+        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
 }
