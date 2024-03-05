@@ -17,7 +17,7 @@ struct ContentView: View {
         }
         .padding()
     }
-    //Sarah comment
+    /* Sarah comment */
 }
 
 #Preview {
