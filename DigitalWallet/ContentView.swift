@@ -21,6 +21,7 @@ struct ContentView: View {
             }
             TextField("enter anything", text: $textt)
         }
+        Spacer()
         .padding()
     }
 }
