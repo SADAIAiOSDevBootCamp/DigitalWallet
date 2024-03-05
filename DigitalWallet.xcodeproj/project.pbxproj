@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E7CD37C2B97674A00B01AF8 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7CD37B2B97674A00B01AF8 /* MyView.swift */; };
 		8339652A2B9758FE0072CA92 /* DigitalWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833965292B9758FE0072CA92 /* DigitalWalletApp.swift */; };
 		8339652C2B9758FE0072CA92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8339652B2B9758FE0072CA92 /* ContentView.swift */; };
 		8339652E2B9759000072CA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8339652D2B9759000072CA92 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E7CD37B2B97674A00B01AF8 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		833965262B9758FE0072CA92 /* DigitalWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833965292B9758FE0072CA92 /* DigitalWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalWalletApp.swift; sourceTree = "<group>"; };
 		8339652B2B9758FE0072CA92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				833965292B9758FE0072CA92 /* DigitalWalletApp.swift */,
 				8339652B2B9758FE0072CA92 /* ContentView.swift */,
+				1E7CD37B2B97674A00B01AF8 /* MyView.swift */,
 				8339652D2B9759000072CA92 /* Assets.xcassets */,
 				8339652F2B9759000072CA92 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E7CD37C2B97674A00B01AF8 /* MyView.swift in Sources */,
 				8339652C2B9758FE0072CA92 /* ContentView.swift in Sources */,
 				8339652A2B9758FE0072CA92 /* DigitalWalletApp.swift in Sources */,
 			);
