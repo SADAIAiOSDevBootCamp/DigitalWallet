@@ -16,6 +16,7 @@ struct ContentView: View {
             Text("Hello, world!")
                 .foregroundColor(.green)
                 .font(.title)
+            // Hello, This a Test for Tower !
         }
         .padding()
     }
