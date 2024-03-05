@@ -6,14 +6,16 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
+    @State var textt = ""
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            
+            TextField("enter anything", text: $textt)
         }
         .padding()
     }
