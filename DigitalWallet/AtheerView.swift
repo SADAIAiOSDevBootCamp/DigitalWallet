@@ -16,7 +16,7 @@ struct AtheerView: View {
             TextField("Name", text: $name)
                 .padding()
                 .font(.system(size: 24))
-                .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
+                .padding(EdgeInsets(top: 10, leading: 150, bottom: 10, trailing: 0))
             Spacer()
         }
     }
