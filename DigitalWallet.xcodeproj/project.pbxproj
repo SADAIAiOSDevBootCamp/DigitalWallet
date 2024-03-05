@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< Updated upstream
 		6A48D1B92B9761CE00F5BAC1 /* sattamview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A48D1B82B9761CE00F5BAC1 /* sattamview.swift */; };
 		6A48D1BB2B97625B00F5BAC1 /* logoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A48D1BA2B97625B00F5BAC1 /* logoo.png */; };
+=======
+		32AD88822B976452003072AA /* Raneem-login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AD88812B976452003072AA /* Raneem-login.swift */; };
+>>>>>>> Stashed changes
 		8339652A2B9758FE0072CA92 /* DigitalWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833965292B9758FE0072CA92 /* DigitalWalletApp.swift */; };
 		8339652C2B9758FE0072CA92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8339652B2B9758FE0072CA92 /* ContentView.swift */; };
 		8339652E2B9759000072CA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8339652D2B9759000072CA92 /* Assets.xcassets */; };
@@ -16,8 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+<<<<<<< Updated upstream
 		6A48D1B82B9761CE00F5BAC1 /* sattamview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sattamview.swift; sourceTree = "<group>"; };
 		6A48D1BA2B97625B00F5BAC1 /* logoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoo.png; path = DigitalWallet/logoo.png; sourceTree = SOURCE_ROOT; };
+=======
+		32AD88812B976452003072AA /* Raneem-login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Raneem-login.swift"; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		833965262B9758FE0072CA92 /* DigitalWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833965292B9758FE0072CA92 /* DigitalWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalWalletApp.swift; sourceTree = "<group>"; };
 		8339652B2B9758FE0072CA92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +69,7 @@
 				8339652D2B9759000072CA92 /* Assets.xcassets */,
 				6A48D1BA2B97625B00F5BAC1 /* logoo.png */,
 				8339652F2B9759000072CA92 /* Preview Content */,
+				32AD88812B976452003072AA /* Raneem-login.swift */,
 			);
 			path = DigitalWallet;
 			sourceTree = "<group>";
@@ -146,7 +155,11 @@
 			files = (
 				8339652C2B9758FE0072CA92 /* ContentView.swift in Sources */,
 				8339652A2B9758FE0072CA92 /* DigitalWalletApp.swift in Sources */,
+<<<<<<< Updated upstream
 				6A48D1B92B9761CE00F5BAC1 /* sattamview.swift in Sources */,
+=======
+				32AD88822B976452003072AA /* Raneem-login.swift in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
