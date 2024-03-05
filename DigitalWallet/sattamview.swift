@@ -11,30 +11,30 @@ struct sattamview: View {
     @State var textt = ""
     @State var texttt = ""
     var body: some View {
-        Image("logoo")
-            .resizable()
-            .frame(height: 300)
-            .frame(width: 300)
+        VStack{
+            Image("logoo")
+                .resizable()
+                .frame(height: 200)
+                .frame(width: 200)
+
+            TextField("please enter your name", text: $textt )
+                .padding()
+                .font(.title3)
+                .bold()
+            TextField("please enter your age", text: $texttt )
+                .padding()
+                .font(.title3)
+                .bold()
             
-           
-       Spacer()
-       TextField("please enter your name", text: $textt )
-            .padding()
-            .font(.title)
-            .bold()
-        TextField("please enter your age", text: $texttt )
-            .padding()
-            .font(.title)
-            .bold()
-        Spacer()
-        Button("Click me" , action: {
-            print("s")
+            Button("Click me" , action: {
+                print("s")
+          
                 
-        
-        })
-        
-    }
-}
+            })
+            
+        };  Spacer()
+        Text("by sattam :)")
+    }}
 
 #Preview {
     sattamview()
