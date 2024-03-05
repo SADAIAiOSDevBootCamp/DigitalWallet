@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E6F1C652B97747700B6359C /* AtheerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F1C642B97747700B6359C /* AtheerView.swift */; };
+		3241B3882B977F1200726C2E /* Raneem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3241B3872B977F1200726C2E /* Raneem.swift */; };
 		67DCAB3F2B97699D00012171 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DCAB3E2B97699D00012171 /* ProfileView.swift */; };
 		6A48D1B92B9761CE00F5BAC1 /* sattamview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A48D1B82B9761CE00F5BAC1 /* sattamview.swift */; };
 		6A48D1BB2B97625B00F5BAC1 /* logoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A48D1BA2B97625B00F5BAC1 /* logoo.png */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		1E6F1C642B97747700B6359C /* AtheerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtheerView.swift; sourceTree = "<group>"; };
+		3241B3872B977F1200726C2E /* Raneem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raneem.swift; sourceTree = "<group>"; };
 		67DCAB3E2B97699D00012171 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		6A48D1B82B9761CE00F5BAC1 /* sattamview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sattamview.swift; sourceTree = "<group>"; };
 		6A48D1BA2B97625B00F5BAC1 /* logoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoo.png; path = DigitalWallet/logoo.png; sourceTree = SOURCE_ROOT; };
@@ -70,6 +72,7 @@
 				8339652D2B9759000072CA92 /* Assets.xcassets */,
 				6A48D1BA2B97625B00F5BAC1 /* logoo.png */,
 				8339652F2B9759000072CA92 /* Preview Content */,
+				3241B3872B977F1200726C2E /* Raneem.swift */,
 			);
 			path = DigitalWallet;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				1E6F1C652B97747700B6359C /* AtheerView.swift in Sources */,
 				8339652A2B9758FE0072CA92 /* DigitalWalletApp.swift in Sources */,
 				6A48D1B92B9761CE00F5BAC1 /* sattamview.swift in Sources */,
+				3241B3882B977F1200726C2E /* Raneem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
