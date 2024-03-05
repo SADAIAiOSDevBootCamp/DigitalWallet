@@ -11,6 +11,7 @@
 		8339652C2B9758FE0072CA92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8339652B2B9758FE0072CA92 /* ContentView.swift */; };
 		8339652E2B9759000072CA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8339652D2B9759000072CA92 /* Assets.xcassets */; };
 		833965312B9759000072CA92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833965302B9759000072CA92 /* Preview Assets.xcassets */; };
+		8339653A2B9764A90072CA92 /* AlmazyadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833965392B9764A90072CA92 /* AlmazyadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8339652B2B9758FE0072CA92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8339652D2B9759000072CA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		833965302B9759000072CA92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		833965392B9764A90072CA92 /* AlmazyadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmazyadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				833965292B9758FE0072CA92 /* DigitalWalletApp.swift */,
 				8339652B2B9758FE0072CA92 /* ContentView.swift */,
+				833965392B9764A90072CA92 /* AlmazyadView.swift */,
 				8339652D2B9759000072CA92 /* Assets.xcassets */,
 				8339652F2B9759000072CA92 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8339652C2B9758FE0072CA92 /* ContentView.swift in Sources */,
+				8339653A2B9764A90072CA92 /* AlmazyadView.swift in Sources */,
 				8339652A2B9758FE0072CA92 /* DigitalWalletApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
